@@ -5,32 +5,19 @@ Our Project
 
 The objective is to make it easy to create Teams.
 
+	
+	This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
 
-Go team.
-Thank you for the project. Please modify it according to the comments:
-1. You need basic documentation including a flowchart describing files and their relationship in addition to describing each function.
-2. The variables are not introduced e.g. $k, $l and $p. They are not well-named variables.
-3. In create.php, there is a loop. I think the value of p should get back to zero at the beginning of the loop. If it shouldn't, what is the reason?
-4. Each file should have a description.
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
 
-Your choice of using Cloud9 is problematic. I have no way to assess personal contribution. Please send me the address of a git repository for your project. 
-Using a versioning system is mandatory for this project. I understand Cloud9 is using git in the background but I need access to it or at the very least a way to assess 
-individual contribution.
-
-
-Yves on LICENSING:
-
-Any code you write has to have a license that explains under which condition the code can be used. 
-Some of the most popular licenses in the open source community are the Apache license (free to do anything 
-including reselling the code), GPL (cannot resell the code, need to publish the source and any modification has to be GPL), LPGL, etc. 
-See http://opensource.org/licenses
- 
-Have a look at various licenses and pick one.
-
-brett's pick : GPL
-andrea's pick: GPL 
-jordan's pick: GPL
-------------------------------------------------
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 Basic:
 - students log into a website using their usual credentials (Novell). They enter their name, degree (BA/BSc), major, minor, programming experience (ranked from 1: very low (no experience outside courses) to 5 very good (professional consultant)), list of skills relevant to the course, blacklist, days/time they cannot meet, and (optionally) they select a project.
@@ -45,76 +32,5 @@ Fancy:
 - random assignments while respecting blacklist
 - optimal assignments using optimation
 
-#Needs to be done:
-    
-
-    Form.php
-        takes picture of user -- https://developer.mozilla.org/en-US/docs/WebRTC/Taking_webcam_photos
-        http://stackoverflow.com/questions/3922723/using-a-webcam-with-javascript
-        
-        
-
-    Optimal.php *needs algorithm* -- andreaA
-        able to make changes to db values for group
-        algorithm
-        
-        
-        
-    Connect.php
-        Connect.php *db implementation* -- jordan
-        for easy connection to db
-        *change values*
-
-db columns exactly as named below        
-    #                       auto incrementing number
-    username                text
-    salt                    ???
-    hash                    ???
-    firstname               text
-    lastname                text
-    studentnumber           text or number
-    email                   text?
-    degree                  text
-    major                   text
-    minor                   text
-    experience              number
-    skills                  text
-    fblacklist1             text
-    fblacklist2             text
-    fblacklist3             text
-    lblacklist1             text
-    lblacklist2             text
-    lblacklist3             text
-    busydays                ??? checkboxes that store multiple things not sure how this works
-    project                 test
-        
-
-#Is done: (12/15)
-    
-    Login.php
-    
-    Logout.php
-    
-    New.php
-    
-    Add.php
-
-    Validate.php
-    
-    Display.php
-    
-    Enter.php *check if defaults work* *check if $found works*
-    
-    Students.php
-    
-    Manual.php
-    
-    Change.php
-    
-    Random.php
-    
-    Create.php
-
-
-#Comments:
-    
+The reason why there is very little activity on git hub from our accounts is because we were using c9.io. 
+We did all of the work together, so each commit is the best representation of the distribution of work. 
