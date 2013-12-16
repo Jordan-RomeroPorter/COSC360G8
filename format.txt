@@ -1,0 +1,27 @@
+formatting
+
+<?php
+/*
+Changes the team # values in the database to the values that were entered in Manual.php
+then redirects to Students.php
+*/
+
+include('Connect.php');     //connects to database
+
+$a = $_GET;     //used for easy referencing to $_GET
+$j = 2;     //incrementing variable used for looping through database
+session_start();    //starts session so that database can be accessed at a certain username
+$b = $_SESSION;     //used for easy referencing to $_SESSION
+
+/*
+redirects to Students.php with the message "Teams changed!"
+*/
+header('Location: Students.php?msg=Teams%20changed!');
+
+<!--starts a form that redirects to Add.php when submitted with entered values-->
+<form>
+
+/*
+if there is a message set, it displays the message
+*/
+if (isset($_GET['msg'])) 
