@@ -34,3 +34,8 @@ Fancy:
 
 The reason why there is very little activity on git hub from our accounts is because we were using c9.io. 
 We did all of the work together, so each commit is the best representation of the distribution of work. 
+
+The distribution of work was: 
+								40% - Brett Schaad
+								30% - Andrea Lau
+								30% - Jordan Romero Porter
